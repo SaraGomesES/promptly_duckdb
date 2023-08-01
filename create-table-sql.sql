@@ -1,0 +1,19 @@
+create table allergies as select * from './output/csv/allergies.csv';
+create table careplans as select * from './output/csv/careplans.csv';
+create table claims_transactions as select * from './output/csv/claims_transactions.csv';
+create table claims as select * from './output/csv/claims.csv';
+create table conditions as select * from './output/csv/conditions.csv';
+create table devices as select * from './output/csv/devices.csv';
+create table encounters as select * from './output/csv/encounters.csv';
+create table imaging_studies as select * from './output/csv/imaging_studies.csv';
+create table immunizations as select * from './output/csv/immunizations.csv';
+create table medications as select * from './output/csv/medications.csv';
+create table observations as select * from './output/csv/observations.csv';
+create table organizations as select * from './output/csv/organizations.csv';
+create table patients as select * from './output/csv/patients.csv';
+create table payer_transitions as select * from './output/csv/payer_transitions.csv';
+create table payers as select * from './output/csv/payers.csv';
+create table procedures as select * from './output/csv/procedures.csv';
+create table providers as select * from './output/csv/providers.csv';
+create table supplies as select * from './output/csv/supplies.csv';
+
