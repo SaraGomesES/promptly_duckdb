@@ -2,3 +2,6 @@
 *.exe
 /output
 *.jar
+*.duckdb.wal
+/tmp.md
+*.duckdb
