@@ -4,4 +4,3 @@
 *.jar
 *.duckdb.wal
 /tmp.md
-*.duckdb
