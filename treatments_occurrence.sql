@@ -2,7 +2,7 @@
 
 select diagnosis, medication, count(*) as occurrence,
 round(count(*) * 100 / sum(count(*)) over (partition by diagnosis), 2) as percentage 
-from medications_per_patient
+from medications_per_patient_t3
 group by diagnosis, medication
 order by diagnosis, medication;
 
@@ -10,6 +10,6 @@ order by diagnosis, medication;
 
 select city, diagnosis, medication, count(*) as occurrence,
 round(count(*) * 100 / sum(count(*)) over (partition by city), 2) as percentage_city
-from medications_per_patient
+from medications_per_patient_t3
 group by city, diagnosis, medication
 order by city, diagnosis, medication;

@@ -10,8 +10,3 @@ from patients;
 select
 Id, gender, birthdate, round(((current_date - birthdate)/365.25), 2) as age
 from patients;
-
--- to calculate the patient's age at the time of the encounter:
-select
-age(start, birthdate) as patient_age
-from medications_per_patient;
